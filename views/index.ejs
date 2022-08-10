@@ -1,0 +1,37 @@
+<%- include('partials/header') %>
+
+    <img class="bg" src="https://cdn.discordapp.com/attachments/1005339050330308641/1006791837060698174/1195754.jpg" />
+
+    <main class="main">
+        <section class="main-section">
+
+            <% if (user !==undefined) { %>
+                <img style="border-radius: 50%;" src=<%=bot.users.cache.get(user._id).displayAvatarURL({ dynamic: true
+                    }); %>
+                />
+                <h1>
+                    <%= user.username %>
+                </h1>
+                <% } else { %>
+                    <img src=<%=bot.user.displayAvatarURL({ dynamic: false }); %> />
+                    <h1>
+                        <%= bot.user.username %>
+                    </h1>
+                    <% } %>
+                        <% if (user) { %>
+                            <p>
+                                <%=user._id%>
+                            </p>
+                            <a href="/auth/logout"><button type="button"
+                                    style="background-color: rgba(204, 48, 48, 0.712);">Finalizar Sessão</button></a>
+                            <% } else { %>
+                                <p>Um lugar pra você ficar de boa</p>
+                                <a href="/auth/redirect"><button type="button">Logar via Discord</button></a>
+                                <% } %>
+
+        </section>
+    </main>
+
+    </body>
+
+    </html>

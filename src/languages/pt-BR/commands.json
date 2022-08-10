@@ -1,0 +1,146 @@
+{
+  "hugs": {
+    "input-user": "Mencione pelo menos 2 usuários para abraçar.",
+    "success-hugging": "{{author}} abraçou {{users}}!",
+    "users-and": "e",
+    "footer": "Há {{value}} pessoas envolvidas nesse abraço"
+  },
+  "weddings": {
+    "title": "Você está casado(a) com {{value}} {{format}}.",
+    "desc": "<:mention:872891934476214292> **Usuário**: `{{user}}`\n<:slowmode:872891934480433193> **Data**: `{{date}}`\n<:search:872891934279082095>  **Servidor**: `{{server}}`\n<:note:874905257245831189> **Tipo**: `{{type}}`",
+    "footer": "Página {{value}} de {{value2}}",
+    "footerFinal": "Página {{value}} de {{value2}} (FINAL)",
+    "format-1": "pessoa",
+    "format-2": "pessoas",
+    "buttons": {
+      "next": "Próximo",
+      "back": "Voltar"
+    }
+  },
+  "banner": {
+    "info": "<:download:898570952827342858> **0** Downloads<:inv:897059967637532712><:join:872891934451048538> **0** Saves<:inv:897059967637532712><:visualized:918962596558831676> **0** Views",
+    "input-user": "<a:bell_pink2:863580628992393247> | {{author}}, **ME DESCULPE..**\nMas não encontrei o banner de {{user}}. (`Não possuí um`)",
+    "input-author": "<a:bell_pink2:863580628992393247> | {{author}}, **ME DESCULPE..**\nMas não encontrei o seu banner. (`Você não possuí um`)",
+    "download-button": "Baixar banner",
+    "save-button": "Salvar banner",
+    "footer": "Comando requisitado por:",
+    "saved": "Banner de `{{user}}` foi salvo em sua **{{prefix}}mochila**!"
+  },
+  "cooldowns": {
+    "descAuthor": "Lista de todos os seus cooldowns.",
+    "descUser": "Lista de todos os cooldowns.",
+    "rep": "Reputações",
+    "poke": "Cutucar",
+    "strongCar": "Carro Forte"
+  },
+  "CABuilder": {
+    "author": "Auto-Respostas | {{kanna}}",
+    "desc": "<:staff:868129884776587304> **Staff**: {{author}}\n<:paper_patente:868126797034823780> **Server**: {{guild}}\n\nCrie a sua resposta/comando customizado.\n\nEscolha se será um comando (se terá prefix)\nou se será apenas uma palavra normal.\n\n<:news:872891933712846908> **Prints exemplares abaixo**:",
+    "create-button": "CRIAR GATILHO",
+    "list-button": "MEUS GATILHOS",
+    "embed-image": "https://media.discordapp.net/attachments/878457803734388746/928333721667530802/kanna_gatilhos_exemplos.png"
+  },
+  "invite": {
+    "title": "Olá {{author}}",
+    "desc": "<:pin:872891933335388260> **Minhas estatísticas**:\n<:cube:872891933226315818> :: {{servers}} servidores\n<:cube:872891933226315818> :: {{users}} usuários\n\nVocê é o(a) nº{{value}} à me adicionar! <:kanna_love:918923002215800903>",
+    "button": "CLIQUE AQUI PARA ME ADICIONAR"
+  },
+  "profile": {
+    "aboutmeTitle": "SOBRE MIM",
+    "aboutmeDesc": "Altere esse texto usando ;sobremim <texto>",
+    "marriedTitle": "CASADO(A) COM",
+    "marriedDesc": {
+      "with3": "{{count}} FOFOS.",
+      "more3": "E MAIS {{count}}."
+    },
+    "nobody": "Ninguém",
+    "online": "Online",
+    "dnd": "Ocupado",
+    "idle": "Ausente",
+    "offline": "Offline"
+  },
+  "userinfo": {
+    "tag": "Tag",
+    "createdAt": "Conta criada",
+    "joinedAt": "Entrou em",
+    "boosting-since": "Impulsionando desde"
+},
+  "help": {
+    "title": "Central de Ajuda do Bot - Testando"
+  },
+  "success": "SUCESSO",
+  "welcome": {
+    "channel": {
+      "sucess": "o canal **<#{{canal}}>** foi setado como canal de welcome com sucesso."
+    }
+  },
+  "language": {
+    "description": "Troque a língua com que eu falo neste servidor",
+    "question": "Qual língua você quer que eu fale?"
+},
+
+  "deposit": {
+    "noArgs": "modo correto de utilizar o comando: **{{prefix}}depositar <quantia/all>**",
+    "sucess": "você depositou **{{coins}} coins** com sucesso."
+  },
+  "prefix": {
+    "description": "Troque meu prefixo neste servidor",
+    "usage": "<prefixo>",
+    "same": "o prefix atual é o mesmo setado atualmente",
+    "no-args": "você não disse qual será o novo prefixo do servidor.",
+    "invalid-input": "este prefixo é muito longo! Escolha um prefixo com no máximo 3 caracteres",
+    "done": "Meu prefixo neste servidor passa a ser {{prefix}}"
+},
+  "limpar": {
+    "noPerm": "Permissões insuficientes",
+    "noArgs": "Específique quantas mensagens quer limpar, de 1 a 99.",
+    "noMsg": "Não há nenhuma mensagem para excluir neste canal!",
+    "invalidArgs": "Hum. `{{num}}` não é considerado um número válido.",
+    "maxArgs": "O máximo de mensagens que eu consigo remover é 99.",
+    "minArgs": "O mínimo de mensagens que eu consigo remover é 1.",
+    "fixed": "ignorei `{{totalFix}}` {{mensagemk}} fixada por precaução.",
+    "success": "removi **{{totalDeleted}}** mensagens."
+},
+"rankingCandys" : {
+  "title" : "RANK DO SERVIDOR",
+  "candys": "usuário",
+  "serverNotFound": "você não forneceu um servidor válido."
+},
+"dreams": {
+    "success": "você tem **{{dreams}} sonhos**, estando no rank {{rankLocal}} local e rank {{rankGlobal}} global."
+},
+"ttt": {
+    "unknownUser": "usuário não encontrado.",
+    "unknownOpponent": "mencione o usuário para o desafio!",
+    "opponentBot": "você não pode jogar com bots.",
+    "sameOpponent": "você não pode jogar por 2 jogadores.",
+    "pending-author": "Você já possuí um desafio pendente com **{{user}}**.",
+    "pending-opponent": "{{opponent}} já possuí um desafio pendente com **{{user}}**.",
+    "YbuttonRequest": "Aceitar",
+    "NbuttonRequest": "Recusar",
+    "youTurn": "sua vez!",
+    "challengeTitle": "{{opponent}} você foi desafiado ao jogo da velha, desejas aceitar?",
+    "buttonOnly": "Apenas {{opponent.username}} pode aceitar ou negar o desafio.",
+    "startingGame": "Iniciando..",
+    "userWon": "venceu",
+    "userLost": "perdeu",
+    "exited": "{{user}} desistiu!",
+    "turns-1": "turno",
+    "turns-more": "turnos",
+    "userTurn": "É a vez de {{user}} jogar!",
+    "timeout": "não reagiu a tempo! (30s)",
+    "tie": "Acabou em empate!",
+    "declined": "**{{user}}** recusou o seu desafio.",
+    "requestTimeout": {
+      "embed": {
+        "title": "Desafio não aceito no tempo dado!",
+        "desc": "O tempo acabou!\nTempo limite: 30s"
+      },
+      "channel": {
+        "content": "não aceitou no tempo dado."
+      }
+    },
+    "endedWin": "<a:bell_pink2:863580628992393247> **PARTIDA FINALIZADA**!\n\n<:medal:872891934522359829> **Vencedor**: {{userWon}}\n<:slowmode:872891934480433193> **Duração**: 56 segundos\n\n<:bug_hunter:913158374986764288> **Perdedor**: {{userLost}}",
+    "endedTie": "<a:bell_pink2:863580628992393247> **PARTIDA FINALIZADA**!\n\n<:news:872891933712846908> **Resultado**: 💩 Empate\n\n<:bug_hunter:913158374986764288> **Jogadores**:\n{{players}}"
+}
+}

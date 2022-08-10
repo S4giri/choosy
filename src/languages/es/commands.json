@@ -1,0 +1,123 @@
+{
+  "hugs": {
+    "input-user": "Menciona al menos 2 usuarios para abrazar.",
+    "success-hugging": "{{author}} abrazó {{users}}!",
+    "users-and": "y",
+    "footer": "Hay {{value}} personas involucradas en este abrazo"
+  },
+  "weddings": {
+    "title": "Estás casado con {{value}} {{format}}.",
+    "desc": "<:mention:872891934476214292> **Usuario**: `{{user}}`\n<:slowmode:872891934480433193> **Fecha**: `{{date}}`\n<:search:872891934279082095>  **Servidor**: `{{server}}`\n<:note:874905257245831189> **Típo**: `{{type}}`",
+    "footer": "Página {{value}} de {{value2}}",
+    "footerFinal": "Página {{value}} de {{value2}} (FINAL)",
+    "format-1": "persona",
+    "format-2": "personas",
+    "buttons": {
+      "next": "Próximo",
+      "back": "Regreso"
+    }
+  },
+  "invite": {
+    "title": "Hola {{author}}",
+    "desc": "<:pin:872891933335388260> **Mis estadísticas**:\n<:cube:872891933226315818> :: {{servers}} servidores\n<:cube:872891933226315818> :: {{users}} usuarios\n\nEres el nº{{value}} al agregarme! <:kanna_love:918923002215800903>",
+    "button": "HAGA CLIC AQUÍ PARA AGREGARME"
+  },
+  "profile": {
+    "aboutmeTitle": "SOBRE MI",
+    "aboutmeDesc": "Cambie este texto usando ;sobremi <texto>",
+    "marriedTitle": "CASADO CON",
+    "marriedDesc": {
+      "with3": "{{count}} FOFOS.",
+      "more3": "Y MÁS {{count}}."
+    },
+    "nobody": "Nadie",
+    "online": "En línea",
+    "dnd": "Dnd",
+    "idle": "Ausente",
+    "offline": "Offline"
+  },
+    "userinfo": {
+      "tag": "Etiqueta",
+      "createdAt": "Cuenta creada",
+      "joinedAt": "Se unió hace",
+      "boosting-since": "Impulsando desde"
+  },
+    "help": {
+        "title": "Central de Ajuda do Bot - Testando"
+    },
+    "success": "ÉXITO",
+    "welcome": {
+        "channel": {
+        "sucess": "o canal **<#{{canal}}>** foi setado como canal de welcome com sucesso."
+      }
+    },
+    "language": {
+        "description": "Cambiar el idioma que hablo en este servidor",
+        "question": "¿Qué idioma quieres que yo hable?"
+    },
+    "deposit": {
+        "noArgs": "modo correto de utilizar o comando: **{{prefix}}depositar <quantia/all>**",
+        "sucess": "você depositou **{{coins}} coins** com sucesso."
+    },
+    "prefix": {
+        "description": "Cambiar mi prefijo en este servidor",
+        "usage": "<prefijo>",
+        "same": "pon un prefijo diferente",
+        "no-args": "no dijiste cuál será el nuevo prefijo del servidor",
+        "invalid-input": "¡este prefijo es demasiado largo! Elija un prefijo con un máximo de 3 caracteres",
+        "done": "Mi prefijo en este servidor es ahora {{prefix}}"
+    },
+    "limpar": {
+        "noPerm": "Permisos insuficientes",
+        "noArgs": "Especifique cuántos mensajes desea borrar, del 1 al 99.",
+        "noMsg": "¡No hay mensajes para eliminar en este canal!",
+        "invalidArgs": "Mmm. `{{num}}` no se considera un número válido.",
+        "maxArgs": "El número máximo de mensajes que puedo eliminar es 99.",
+        "minArgs": "El mínimo de mensajes que puedo eliminar es 1.",
+        "fixed": "Lo ignoré **{{totalFix}}** mensajes por precaución.",
+        "success": "yo borré **{{totalDeleted}}** mensajes."
+    },
+    "rankingCandys" : {
+      "title" : "RANGO DEL SERVIDOR",
+      "candys": "usuario",
+      "serverNotFound": "no ha proporcionado un servidor válido."
+    },
+    "dreams": {
+        "success": "tú tienes **{{dreams}} sueños**, siendo el {{rankLocal}} del rango local y {{rankGlobal}} del rango global."
+      },
+      "ttt": {
+        "unknownUser": "usuario no encontrado.",
+        "unknownOpponent": "¡menciona al usuario para el desafío!",
+        "opponentBot": "no puedes jugar con bots.",
+        "sameOpponent": "no puedes jugar por 2 jugadores.",
+        "pending-author": "Tu ya tienes un desafío pendiente con **{{user}}**.",
+        "pending-opponent": "{{opponent}} ya tienes un desafío pendiente con **{{user}}**.",
+        "YbuttonRequest": "Aceptar",
+        "NbuttonRequest": "Negar",
+        "youTurn": "su turno!",
+        "challengeTitle": "{{opponent}} fuiste desafiado al tres en raya.",
+        "buttonOnly": "Solo {{opponent.username}} puede aceptar o negar el desafío.",
+        "startingGame": "comenzando..",
+        "userWon": "ganó",
+        "userLost": "perdió",
+        "exited": "{{user}} levantó la bandera blanca!",
+        "turns-1": "turno",
+        "turns-more": "turnos",
+        "userTurn": "¡Es el turno de {{user}} de jugar!",
+        "timeout": "no reaccionó a tiempo! (30s)",
+        "tie": "Terminó en un empate!",
+        "declined": "**{{user}}** rechazó su desafío.",
+        "requestTimeout": {
+          "embed": {
+            "title": "Desafío no aceptado en el tiempo indicado!",
+            "desc": "El tiempo acabó!\nTiempo limite: 30s"
+          },
+          "channel": {
+            "content": "no acepté en el tiempo dado."
+          }
+        },
+        "endedWin": "<a:bell_pink2:863580628992393247> **FIN DEL JUEGO**!\n\n<:medal:872891934522359829> **Ganador**: {{userWon}}\n<:slowmode:872891934480433193> **Duración**: {{time}}\n\n<:bug_hunter:913158374986764288> **Perdedor**: {{userLost}}",
+        "endedTie": "<a:bell_pink2:863580628992393247> **FIN DEL JUEGO**!\n\n<:news:872891933712846908> **Resultado**: 💩 No hay ganador\n\n<:bug_hunter:913158374986764288> **Jugadores**:\n{{players}}"
+    }
+  }
+  

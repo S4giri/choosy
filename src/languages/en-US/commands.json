@@ -1,0 +1,183 @@
+{
+  "hugs": {
+    "input-user": "Mention at least 2 users to hug.",
+    "success-hugging": "{{author}} has just given {{users}} a hug!",
+    "users-and": "and",
+    "footer": "{{value}} peoples involved in this hug"
+  },
+  "weddings": {
+    "title": "You are married with {{value}} {{format}}.",
+    "desc": "<:mention:872891934476214292> **User**: `{{user}}`\n<:slowmode:872891934480433193> **Date**: `{{date}}`\n<:search:872891934279082095>  **Server**: `{{server}}`\n<:note:874905257245831189> **Type**: `{{type}}`",
+    "footer": "Page {{value}} of {{value2}}",
+    "footerFinal": "Page {{value}} of {{value2}} (FINAL)",
+    "format-1": "people",
+    "format-2": "peoples",
+    "buttons": {
+      "next": "Forward",
+      "back": "Back"
+    }
+  },
+  "CABuilder": {
+    "author": "Auto-answers | {{kanna}}",
+    "desc": "<:staff:868129884776587304> **Staff**: {{author}}\n<:paper_patente:868126797034823780> **Server**: {{guild}}\n\nCreate your custom response/command.\n\nChoose whether it will be a command (with prefix)\nor if it will just be a normal word.\n\n<:news:872891933712846908> **Sample prints below**:",
+    "create-button": "CREATE TRIGGER",
+    "list-button": "MY TRIGGERS",
+    "embed-image": "https://cdn.discordapp.com/attachments/878457803734388746/928339439678279720/enUS-kanna_gatilhos_exemplos.png",
+    "step-1": {
+      "desc": "<:authorized:868333235116056586> **TRIGGER - STEP 1 OF 3**\n\n<a:check:918935548901617684> Type in the chat what will be the trigger."
+    },
+    "step-2": {
+      "desc": "<:authorized:868333235116056586> **CONTENT - STEP 2 OF 3**\n\n<a:check:918935548901617684> About the answer, what's will have?\n<:alvo:875481695170727997> __Trigger__: {{content}}\n\n<:1P:864339513899876423> Text only\n<:2P:864340907251859496> Image/Gif only\n<:3P:864340907611127808> Text and Image/Gif\n<:4P:864340906605019136> To react with a emoji"
+    },
+    "reacts": {
+      "1": {
+        "desc": "<:authorized:868333235116056586> **ANSWER - STEP 3 OF 3**\n\n<a:check:918935548901617684> When someone types '{{content}}' in the chat\nwhat should i answer? Submit the word/phrase below."
+      },
+      "2": {
+        "desc": "<:authorized:868333235116056586> **ANSWER - STEP 3 OF 3**\n\n<a:check:918935548901617684> When someone types '{{content}}' in the chat\nwhich image/gif should i send? Submit below."
+      },
+      "3": {
+        "desc2-5": "<:authorized:868333235116056586> **ANSWER - STEP 2.5 OF 3**\n\n<a:check:918935548901617684> When someone types '{{content}}' in the chat\nwhat will be the title (text) of the Image/Gif? Submit below.",
+        "desc3": "<:authorized:868333235116056586> **ANSWER - STEP 3 OF 3**\n\n<a:check:918935548901617684> When someone types '{{content}}' in the chat\nwhich image/gif should i send? Submit below.\n\nText defined for image title: {{content2}}\n\nYou can attach the image/gif or send its link.",
+        "okay": "Okay!\nIf someone types {{content}} in the chat I will respond with **{{content2}} ({{content3}})**!\n\nTo configure your custom responses, use: **{{prefix}}ca**"
+      },
+      "4": {
+        "desc": "<:authorized:868333235116056586> **ANSWER - STEP 3 OF 3**\n\n<a:check:918935548901617684> When someone types '{{content}}' in the chat\nwhat should i answer? Submit the word/phrase below."
+      },
+      "unsupported-tenor-gifs": "Gifs and images from tenor is currently not supported! Upload another image/gif.\n\nNeed help? Access: https://discord.gg/e52m5PCaxs",
+      "invalid-url": "You didn't mention a valid URL.\n\nNeed help? Access: https://discord.gg/e52m5PCaxs",
+      "okay": "Okay!\nIf someone types {{content}} in the chat I will respond with {{content2}}!\n\nTo configure your custom responses, use: **{{prefix}}ca**"
+    }
+  },
+  "invite": {
+    "title": "Howdy {{author}}",
+    "desc": "<:pin:872891933335388260> **My statistics**:\n<:cube:872891933226315818> :: {{servers}} servers\n<:cube:872891933226315818> :: {{users}} users\n\nYou are the #{{value}} to add me! <:kanna_love:918923002215800903>",
+    "button": "CLICK HERE TO ADD ME"
+  },
+  "profile": {
+    "aboutmeTitle": "ABOUT ME",
+    "aboutmeDesc": "Change this text using ;aboutme <text>",
+    "marriedTitle": "MARRIED WITH",
+    "marriedDesc": {
+      "with3": "{{count}} CUTIES.",
+      "more3": "AND MORE {{count}}."
+    },
+    "nobody": "Nobody",
+    "online": "Online",
+    "dnd": "Dnd",
+    "idle": "Idle",
+    "offline": "Offline"
+  },
+  "banner": {
+    "info": "<:download:898570952827342858> **0** Downloads<:inv:897059967637532712><:join:872891934451048538> **0** Saves<:inv:897059967637532712><:visualized:918962596558831676> **0** Views",
+    "input-user": "<a:bell_pink2:863580628992393247> | {{author}}, **I'M SORRY..**\nBut I ate the banner of {{user}}. (`Don't have one`)",
+    "input-author": "<a:bell_pink2:863580628992393247> | {{author}}, **I'M SORRY..**\nBut I ate your banner. (`You don't have one`)",
+    "download-button": "Download banner",
+    "save-button": "Save banner",
+    "footer": "Command requested by:",
+    "saved": "`{{user}}'s` banner has been saved in your **{{prefix}}backpack**!"
+  },
+  "userinfo": {
+    "tag": "Tag",
+    "createdAt": "Account created",
+    "joinedAt": "Joined at",
+    "boosting-since": "Boosting since"
+},
+  "help": {
+    "title": "Central de Ajuda do Bot - Testando"
+  },
+  "success": "SUCCESS",
+  "welcome": {
+    "channel": {
+      "sucess": "o canal **<#{{canal}}>** foi setado como canal de welcome com sucesso."
+    }
+  },
+  "language": {
+    "description": "Change the language I speak on this server",
+    "question": "What language do you want me to speak?"
+},
+  "deposit": {
+    "noArgs": "modo correto de utilizar o comando: **{{prefix}}depositar <quantia/all>**",
+    "sucess": "você depositou **{{coins}} coins** com sucesso."
+  },
+  "prefix": {
+    "description": "Change my prefix on this server",
+    "same": "choose a different prefix",
+    "usage": "<prefix>",
+    "no-args": "you didn't say what the new server prefix will be",
+    "invalid-input": "this prefix is ​​too long! Choose a prefix with a maximum of 3 characters",
+    "done": "My prefix on this server is now {{prefix}}"
+},
+"limpar": {
+  "noPerm": "Insufficient permissions",
+  "noArgs": "Specify how many messages you want to clear, 1 of 99.",
+  "noMsg": "There are no messages to delete on this channel!",
+  "invalidArgs": "Mhm. `{{num}}` is not considered a valid number.",
+  "maxArgs": "The maximum messages i can remove is 99",
+  "minArgs": "The least messages i can remove is 1.",
+  "fixed": "I ignored `{{totalFix}}` fixed messages per precaution.",
+  "success": "i cleared **{{totalDeleted}}** messages."
+},
+"rankingCandys" : {
+  "title" : "SERVER RANKING",
+  "candys": "user",
+  "serverNotFound": "you didn't provide a valid server."
+},
+"cooldowns": {
+  "descAuthor": "List of all your cooldowns.",
+  "descUser": "List of all cooldowns.",
+  "rep": "Reputation",
+  "poke": "Poke",
+  "strongCar": "Strong car"
+},
+"daily": {
+  "success": "congratulations! Today you won {{value}} dreams!"
+},
+"dreams": {
+  "success": "you have **{{dreams}} dreams**, being in rank {{rankLocal}} local and rank {{rankGlobal}} global.",
+  "successAuthor": "{{user}} have **{{dreams}} dreams**, being in rank {{rankLocal}} local and rank {{rankGlobal}} global.",
+  "zeroDreams": "You don't have dreams.",
+  "authorZeroDreams": "{{user}} don't have dreams.",
+  "noDB": "{{user}} have **0 dreams**.",
+  "top": "Dreams score",
+  "missing-value": "please specify a valid amount.",
+  "invalid-value": "invalid value.",
+  "limit-value": "the limit you can set is 1B.",
+  "success-set": "Now {{user}} has **{{value}} dreams**.",
+  "success-transfer": "You have successfully transferred **{{value2}} dreams** to {{user1}}\n\n{{user2}} now have {{value}} dreams."
+},
+"ttt": {
+  "unknownUser": "user not found!",
+  "unknownOpponent": "you've to mention user you want to play.",
+  "opponentBot": "you can't play with bots.",
+  "sameOpponent": "you can't play per 2 Players.",
+  "pending-author": "You already have a pending challenge with **{{user}}**.",
+  "pending-opponent": "{{opponent}} already have a pending challenge with **{{user}}**.",
+  "YbuttonRequest": "Accept",
+  "NbuttonRequest": "Decline",
+  "youTurn": "you turn!",
+  "challengeTitle": "Hey, {{opponent}}. You got a tictactoe request.",
+  "buttonOnly": "Only {{opponent.username}} can accept or deny the challenge.",
+  "startingGame": "starting..",
+  "userWon": "won",
+  "userLost": "lost",
+  "exited": "{{user}} raised the white flag.",
+  "turns-1": "turn",
+  "turns-more": "turns",
+  "userTurn": "It's {{user}}'s turn to play!",
+  "timeout": "didn\\'t react in time! (30s)",
+  "tie": "It's a tie!",
+  "declined": "**{{user}}** has declined your game.",
+  "requestTimeout": {
+    "embed": {
+      "title": "Challenge not accepted in time",
+      "desc": "Ran out of time!\nTime limit: 30s"
+    },
+    "channel": {
+      "content": "didnt accept in time"
+    }
+  },
+  "endedWin": "<a:bell_pink2:863580628992393247> **FINISHED MATCH**!\n\n<:medal:872891934522359829> **Won**: {{userWon}}\n<:slowmode:872891934480433193> **Duration**: 56 seconds\n\n<:bug_hunter:913158374986764288> **Lost**: {{userLost}}",
+  "endedTie": "<a:bell_pink2:863580628992393247> **FINISHED MATCH**!\n\n<:news:872891933712846908> **Result**: 💩 TIE\n\n<:bug_hunter:913158374986764288> **Players**:\n{{players}}"
+}
+}

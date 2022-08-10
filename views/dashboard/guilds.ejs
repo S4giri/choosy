@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/dashboard/servers.css">
+    <title>
+        <%= bot.username %> » Um bot bastante útil para seu servidor
+    </title>
+    <link rel="icon" href="/static/icon.png" type="image/ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="content">
+        <header class="s-navbar">
+            <div class="logoText">
+                <% if(user) { %>
+                    <%= bot.users.cache.get(user._id).username %> <i class="fa fa-angle-down logoText-icon"
+                            aria-hidden="true"></i>
+
+                        <% } else { %>
+                            <%= bot.user.username %>
+                                <% } %>
+                                    <% if(user) { %>
+                                        <div class="dropdown-content">
+                                            <a href="#"><i class="fa fa-user-circle" style="padding: 10px;"
+                                                    aria-hidden="true"></i>
+                                                Perfil</a>
+                                            <a href="/dashboard"><i class="fa fa-server" style="padding: 10px;"></i>
+                                                Painel</a>
+                                            <a href="#"><i class="fa fa-shopping-cart" style="padding: 10px;"></i>
+                                                Loja</a>
+                                            <a href="#"><i class="fa fa-book" style="padding: 10px;"></i>
+                                                Comandos</a>
+                                            <a href="/auth/logout"><i class="fa fa-sign-in" style="padding: 10px;"></i>
+                                                Sair</a>
+
+                                            <% let GUILD=bot.guilds.cache.get(process.env.SUPPORT) %>
+
+                                                <% let USER_=GUILD.members.cache.get(user._id) %>
+                                                    <% if(USER_) { %>
+
+                                                        <% if(USER_.permissions.has("ADMINISTRATOR")) { %>
+                                                            <a class="admin-panel-box" href="#"><i class="fa fa-gavel"
+                                                                    style="padding: 10px;"></i>
+                                                                Painel Admin</a>
+                                                            <% } %>
+                                                                <% } %>
+
+                                        </div>
+                                        <% } %>
+            </div>
+            <div class="s-navbar-icon">
+                <i class="fa fa-angle-down"></i>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+            <div class="logoText-desc">
+                <%= user==null? bot.user.id : user._id %>
+            </div>
+            <img class="s-navbar-image" src=<%=user==null? "/static/sagiri.gif" :
+                bot.users.cache.get(user._id).displayAvatarURL({ dynamic: true }) %>
+
+            <nav class="s-navbar-menu">
+                <a class="logoText-2" href="../">
+                    <%= user==null? bot.user.username : bot.users.cache.get(user._id).username %>
+                </a>
+                <div class="menu-mobile">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </nav>
+        </header>
+
+        <section class="container-server-top">
+            <div class="server-list-text">
+                <div class="server-list-text-title">
+                    <h1>Lista de servidores</h1>
+                    <h3>Servidores cujo você tem permissão para configurar</h3>
+                </div>
+            </div>
+            <div class="server-top-search">
+                <input name="search" type="text" id="myInput" onkeyup="myFunction()"
+                    placeholder="Procurar por nome ou o ID do servidor">
+            </div>
+        </section>
+
+        <div id="myUL">
+            <section class="container-two">
+                <% user.website.guilds.map((guild)=> { %>
+
+                    <% if(guild.permissions=="2147483647" ) { %>
+                        <div class="container-two-card">
+                            <span class="container-two-card-image"></span>
+                            <% if (guild.icon==null) { %>
+                                <img class="container-two-card-gp" src="/static/default_avatar_guild.png">
+                                <% } else { %>
+                                    <img class="container-two-card-gp"
+                                        src=https://cdn.discordapp.com/icons/<%=guild.id%>/<%= guild.icon %>.png>
+                                        <% } %>
+                                            <div class="container-two-card-text">
+                                                <span class="container-two-card-id">
+                                                    <%= guild.name %>
+                                                </span>
+                                                <p class="container-two-card-desc">
+                                                    <%= guild.id %>
+                                                </p>
+                                            </div>
+                        </div>
+                        <% } %>
+                            <% }) %>
+            </section>
+        </div>
+
+        <section class="container-three">
+        </section>
+
+    </div>
+
+    <script src="/scripts/dashboard/servers.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/index.css">
+    <title>
+        <%= bot.user.username %> » A nova era chegou!
+    </title>
+    <link rel="icon" type="image/ico" href=<%=bot.user.displayAvatarURL() %>>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="langWrap">
+            <a href="#" language='en-US' class="active" lang-data>USA</a>
+            <a href="#" language='pt-BR' class="active" lang-data>BR</a>
+        </div>
+
+        <div class="content">
+            <div class="all-txt">
+                <h2 class="title">Hello World</h2>
+                <h2 class="desc">Simples discord bot</h2>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="/scripts/languages/constructor.js"></script>

@@ -1,0 +1,16 @@
+{
+    "errors": {
+        "invalid-user": "{{xmark}} | {{author}}, você não mencionou o usuário.",
+        "not-found": "{{xmark}} | {{author}}, usuário não encontrado!"
+    },
+    "title": {
+        "alert": "{{bell}} | {{author}}, **ALERTA**!",
+        "success": "{{vmark}} | {{author}}, **SUCESSO**!"
+    },
+    "misc": {
+        "maintenance": "Manutenção temporária!"
+    },
+    "links": {
+        "follow": "Seguir"
+    }
+}
